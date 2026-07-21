@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Datasets & Local Downloads
+*.csv
+*.parquet
+*.json
+*.zip
+*.tar.gz
+kagglehub/
+.kaggle/
+
+# TensorFlow / Keras Artifacts
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.onnx
+checkpoints/
+logs/
+tensorboard_logs/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
